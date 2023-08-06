@@ -1,7 +1,8 @@
 import openai
 import streamlit as st
 
-openai.api_key = "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"
+OpenAI_Key = st.secrets["OpenAI_Key"]
+
 hide_default_format = """
        <style>
        #MainMenu {visibility: hidden; }

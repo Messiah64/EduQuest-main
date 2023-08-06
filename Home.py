@@ -6,7 +6,7 @@ dotenv.load_dotenv(dotenv_path='.env')
 import os
 
 
-OpenAI_Key = os.environ.get("OPENAI_KEY")
+OpenAI_Key = st.secrets["OpenAI_Key"]
 
 st.set_page_config(
     page_title="EduQuest",

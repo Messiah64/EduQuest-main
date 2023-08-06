@@ -14,7 +14,7 @@ hide_default_format = """
        </style>
        """
 st.markdown(hide_default_format, unsafe_allow_html=True)
-OpenAI_Key = "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"
+OpenAI_Key = st.secrets["OpenAI_Key"]
 
 def summarizer(text):
     openai_summarizer = openai_summarize.OpenAISummarize(OpenAI_Key)

@@ -4,10 +4,10 @@ import requests
 import os
 
 # Load API keys from environment variables
-openai_key = "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"
-yt_api_key = "AIzaSyCMuNqjwJPxDPZNEZGBtvhdnSqqqN2BnBk"
+OpenAI_Key = st.secrets["OpenAI_Key"]
+yt_api_key = st.secrets["Youtube_Key"]
 
-openai.api_key = openai_key
+openai.api_key = OpenAI_Key
 youtube_api_key = yt_api_key
 
 def generate_recommendations(main_topic, subtopics):
