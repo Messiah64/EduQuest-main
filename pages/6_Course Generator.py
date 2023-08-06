@@ -4,7 +4,7 @@ import requests
 import os
 
 # Load API keys from environment variables
-openai_key = "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"
+openai_key = "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"
 yt_api_key = "AIzaSyCMuNqjwJPxDPZNEZGBtvhdnSqqqN2BnBk"
 
 openai.api_key = openai_key
