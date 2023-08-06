@@ -2,11 +2,8 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
-<<<<<<< HEAD
+
 OpenAI_Key = st.secrets["OpenAI_Key"]
-=======
-OpenAI_Key = "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"
->>>>>>> 0bb586c03e8dc85950b20913fab8769964a80e36
 
 st.set_page_config(
     page_title="EduQuest",
