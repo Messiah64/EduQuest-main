@@ -4,13 +4,9 @@ import requests
 import os
 
 # Load API keys from environment variables
-<<<<<<< HEAD
+
 OpenAI_Key = st.secrets["OpenAI_Key"]
 yt_api_key = st.secrets["Youtube_Key"]
-=======
-openai_key = "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"
-yt_api_key = "AIzaSyCMuNqjwJPxDPZNEZGBtvhdnSqqqN2BnBk"
->>>>>>> 0bb586c03e8dc85950b20913fab8769964a80e36
 
 openai.api_key = OpenAI_Key
 youtube_api_key = yt_api_key
