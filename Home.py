@@ -1,12 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
-import dotenv
-
-dotenv.load_dotenv(dotenv_path='.env')
-import os
 
 
-OpenAI_Key = os.environ.get("OPENAI_KEY")
+OpenAI_Key = "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"
 
 st.set_page_config(
     page_title="EduQuest",
