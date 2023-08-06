@@ -95,7 +95,7 @@ def get_transcript(video_id):
 import urllib.parse as urlparse
 
 def get_videos():
-    yt_api_key = st.secrets["Youtube_API_Key"]
+    yt_api_key = st.secrets["Youtube_Key"]
     youtube = build("youtube", "v3", developerKey=yt_api_key)
 
     video_url = st.text_input('Type in YouTube Video URL')
