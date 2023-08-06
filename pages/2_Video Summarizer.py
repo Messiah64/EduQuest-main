@@ -5,6 +5,8 @@ import streamlit as st
 from googleapiclient.discovery import build
 from youtube_transcript_api import YouTubeTranscriptApi
 
+OpenAI_Key = st.secrets["OpenAI_Key"]
+
 hide_default_format = """
        <style>
        #MainMenu {visibility: hidden; }
@@ -93,7 +95,7 @@ def get_transcript(video_id):
 import urllib.parse as urlparse
 
 def get_videos():
-    yt_api_key = "AIzaSyCMuNqjwJPxDPZNEZGBtvhdnSqqqN2BnBk"
+    yt_api_key = st.secrets["Youtube_API_Key"]
     youtube = build("youtube", "v3", developerKey=yt_api_key)
 
     video_url = st.text_input('Type in YouTube Video URL')

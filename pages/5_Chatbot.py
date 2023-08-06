@@ -17,7 +17,7 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 def CSVapp():
     st.header("Have any questions about a CSV file? Chat with our bot.")
 
-    AI21_API_KEY = "yfGezYT6cMcK8sOUTvyH6vrREIV9NFZK"
+    AI21_API_KEY = st.secrets["AI21_API_KEY"]
 
     uploaded_file = st.file_uploader('Upload a text file such as a .csv', type=['csv','txt'], accept_multiple_files=False)
 
