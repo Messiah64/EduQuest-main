@@ -23,9 +23,10 @@ st.image("images/eduquest-logo2.png", width= 400)
 
 st.markdown("""
 
-            #### Welcome to EduQuest - a 5 in 1 education multitool for students.
+            #### Welcome to EduQuest - a 6 in 1 education multitool.
+##By students, For Students
 
-- ##Text Summarizer** 📚🔍: Generates brief summaries from PDFs, articles, or input text, saving time on reading.
+- **Text Summarizer** 📚🔍: Generates brief summaries from PDFs, articles, or input text, saving time on reading.
             
 - **Video Summarizer** 🎥📝: Provides key points from YouTube videos via URL, eliminating the need to watch the whole video.
             
